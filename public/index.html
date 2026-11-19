@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>多人合奏判定原型</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>多人合奏互动判定原型</h1>
+    <p class="sub">同一测试乐段 · 独立媒体时间映射 · 有界判定 · 稳定击打身份</p>
+  </header>
+
+  <section class="panel" id="setup-panel">
+    <h2>1. 设备与连接</h2>
+    <div class="grid">
+      <label>客户端名称
+        <input id="name" maxlength="24" placeholder="演奏者 A" />
+      </label>
+      <label>输出延迟不确定 ±(ms)
+        <input id="out-unc" type="number" min="1" max="500" value="25" />
+      </label>
+      <label>输入采集不确定 ±(ms)
+        <input id="in-unc" type="number" min="1" max="500" value="20" />
+      </label>
+    </div>
+    <div class="row">
+      <button id="connect">连接并测量时钟</button>
+      <span id="sync-state" class="badge">未连接</span>
+    </div>
+    <div id="sync-detail" class="mono small"></div>
+    <p class="small muted">
+      声明的设备不确定范围会被服务器钳制在 1–500ms；时钟偏移通过多次往返测量取最紧包络，
+      服务器从不直接信任客户端填写的时间。
+    </p>
+  </section>
+
+  <section class="panel" id="round-panel" hidden>
+    <h2>2. 合奏乐段</h2>
+    <div class="row">
+      <button id="start-round">开始一轮（所有人听到同一乐段）</button>
+      <span id="round-state" class="badge">空闲</span>
+    </div>
+    <div class="progress-wrap">
+      <div id="progress"></div>
+      <div id="note-lanes"></div>
+      <div id="playhead"></div>
+    </div>
+    <div class="row">
+      <button id="hit-btn" class="hit">击打（空格 / 点击）</button>
+      <span class="small muted">每次击打生成稳定 ID，重传不会重复计数</span>
+    </div>
+    <p id="audition" class="small"></p>
+  </section>
+
+  <section class="panel" id="mapping-panel">
+    <h2>3. 输入时间映射（三类时刻分开记录）</h2>
+    <table>
+      <thead>
+        <tr><th>击打 ID</th><th>输入采集 (性能时钟)</th><th>音频呈现 (音频时钟→换算)</th><th>服务器收到</th>
+        <th>本地媒体时间</th><th>判定媒体区间</th><th>状态</th></tr>
+      </thead>
+      <tbody id="hit-rows"></tbody>
+    </table>
+    <p class="small muted">
+      “输入采集时刻 / 音频呈现时刻”为本地性能时钟读数，“服务器收到时刻”由服务器盖章；
+      到达先后不代表演奏早晚。
+    </p>
+  </section>
+
+  <section class="panel" id="result-panel">
+    <h2>4. 最终采用依据</h2>
+    <div id="results"></div>
+  </section>
+
+  <section class="panel">
+    <h2>在场客户端</h2>
+    <div id="clients"></div>
+  </section>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
