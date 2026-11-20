@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "node test/run.js",
-    "test:http": "node test/http-smoke.js"
+    "test:http": "node test/http-smoke.js",
+    "build:rehearsal": "node tools/build-rehearsal.js",
+    "test:rehearsal": "node test/rehearsal.js"
   }
 }

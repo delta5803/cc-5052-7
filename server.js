@@ -16,7 +16,11 @@ const MIME = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
   '.css': 'text/css; charset=utf-8',
-  '.svg': 'image/svg+xml'
+  '.svg': 'image/svg+xml',
+  '.json': 'application/json; charset=utf-8',
+  '.wav': 'audio/wav',
+  '.musicxml': 'application/vnd.recordare.musicxml+xml; charset=utf-8',
+  '.xml': 'application/xml; charset=utf-8'
 };
 
 // Monotonic clock in seconds on an absolute origin (timeOrigin + now). The
@@ -75,7 +79,7 @@ async function serveStatic(req, res) {
     baseDir = SHARED_DIR;
     rel = rel.slice(4);
   }
-  const filePath = path.join(baseDir, rel);
+  let filePath = path.join(baseDir, rel);
   if (!filePath.startsWith(baseDir)) {
     json(res, 403, { error: 'forbidden' });
     return;
@@ -84,7 +88,16 @@ async function serveStatic(req, res) {
     const data = await readFile(filePath);
     res.writeHead(200, { 'content-type': MIME[path.extname(filePath)] || 'application/octet-stream' });
     res.end(data);
-  } catch {
+  } catch (err) {
+    // Directory paths serve their index.html (e.g. /rehearsal/).
+    if (err.code === 'EISDIR' || url.pathname.endsWith('/')) {
+      try {
+        const index = await readFile(path.join(filePath, 'index.html'));
+        res.writeHead(200, { 'content-type': MIME['.html'] });
+        res.end(index);
+        return;
+      } catch { /* fall through to 404 */ }
+    }
     json(res, 404, { error: 'not-found' });
   }
 }

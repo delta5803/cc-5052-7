@@ -1,0 +1,2401 @@
+{
+  "schema": "rehearsal-bundle/v1",
+  "generatedFrom": {
+    "seed": 20261120,
+    "sampleRate": 48000,
+    "scoreId": "duet-rehearsal-1"
+  },
+  "score": {
+    "id": "duet-rehearsal-1",
+    "title": "交接练习 · 双声部十小节",
+    "bpm": 100,
+    "beatsPerBar": 4,
+    "bars": 10,
+    "duration": 24,
+    "beat": 0.6,
+    "windows": {
+      "perfect": 0.045,
+      "good": 0.09
+    },
+    "noteMatchRadius": 0.15,
+    "guideMatchRadius": 0.3,
+    "notes": [
+      {
+        "id": "n001",
+        "t": 0,
+        "bar": 1,
+        "beat": 1,
+        "voice": 0,
+        "voices": [
+          1,
+          2
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 0,
+        "accent": false,
+        "unison": true
+      },
+      {
+        "id": "n002",
+        "t": 0.6,
+        "bar": 1,
+        "beat": 2,
+        "voice": 0,
+        "voices": [
+          1,
+          2
+        ],
+        "pitch": {
+          "label": "D5",
+          "freq": 587.33,
+          "step": "D",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": true
+      },
+      {
+        "id": "n003",
+        "t": 1.2,
+        "bar": 1,
+        "beat": 3,
+        "voice": 0,
+        "voices": [
+          1,
+          2
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": true
+      },
+      {
+        "id": "n004",
+        "t": 1.8,
+        "bar": 1,
+        "beat": 4,
+        "voice": 0,
+        "voices": [
+          1,
+          2
+        ],
+        "pitch": {
+          "label": "G5",
+          "freq": 783.99,
+          "step": "G",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": true
+      },
+      {
+        "id": "n005",
+        "t": 2.4,
+        "bar": 2,
+        "beat": 1,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 0,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n006",
+        "t": 3,
+        "bar": 2,
+        "beat": 2,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "D4",
+          "freq": 293.66,
+          "step": "D",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n007",
+        "t": 3.6,
+        "bar": 2,
+        "beat": 3,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n008",
+        "t": 4.2,
+        "bar": 2,
+        "beat": 4,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "G4",
+          "freq": 392,
+          "step": "G",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n009",
+        "t": 4.8,
+        "bar": 3,
+        "beat": 1,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "A4",
+          "freq": 440,
+          "step": "A",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n010",
+        "t": 5.4,
+        "bar": 3,
+        "beat": 2,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "G5",
+          "freq": 783.99,
+          "step": "G",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n011",
+        "t": 6,
+        "bar": 3,
+        "beat": 3,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "E4",
+          "freq": 329.63,
+          "step": "E",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n012",
+        "t": 6.6,
+        "bar": 3,
+        "beat": 4,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "D5",
+          "freq": 587.33,
+          "step": "D",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n013",
+        "t": 7.2,
+        "bar": 4,
+        "beat": 1,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 0,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n014",
+        "t": 7.35,
+        "bar": 4,
+        "beat": 1.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "D4",
+          "freq": 293.66,
+          "step": "D",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n015",
+        "t": 7.5,
+        "bar": 4,
+        "beat": 1.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n016",
+        "t": 7.65,
+        "bar": 4,
+        "beat": 1.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "G4",
+          "freq": 392,
+          "step": "G",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n017",
+        "t": 7.8,
+        "bar": 4,
+        "beat": 2,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "A5",
+          "freq": 880,
+          "step": "A",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n018",
+        "t": 7.95,
+        "bar": 4,
+        "beat": 2.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 5,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n019",
+        "t": 8.1,
+        "bar": 4,
+        "beat": 2.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 0,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n020",
+        "t": 8.25,
+        "bar": 4,
+        "beat": 2.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "D4",
+          "freq": 293.66,
+          "step": "D",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n021",
+        "t": 8.4,
+        "bar": 4,
+        "beat": 3,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n022",
+        "t": 8.55,
+        "bar": 4,
+        "beat": 3.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "G4",
+          "freq": 392,
+          "step": "G",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n023",
+        "t": 8.7,
+        "bar": 4,
+        "beat": 3.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "A5",
+          "freq": 880,
+          "step": "A",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n024",
+        "t": 8.85,
+        "bar": 4,
+        "beat": 3.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 5,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n025",
+        "t": 9,
+        "bar": 4,
+        "beat": 4,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 0,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n026",
+        "t": 9.15,
+        "bar": 4,
+        "beat": 4.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "D4",
+          "freq": 293.66,
+          "step": "D",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n027",
+        "t": 9.3,
+        "bar": 4,
+        "beat": 4.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n028",
+        "t": 9.45,
+        "bar": 4,
+        "beat": 4.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "G4",
+          "freq": 392,
+          "step": "G",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n029",
+        "t": 9.6,
+        "bar": 5,
+        "beat": 1,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "A5",
+          "freq": 880,
+          "step": "A",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n030",
+        "t": 9.75,
+        "bar": 5,
+        "beat": 1.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 5,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n031",
+        "t": 9.9,
+        "bar": 5,
+        "beat": 1.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 0,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n032",
+        "t": 10.05,
+        "bar": 5,
+        "beat": 1.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "D4",
+          "freq": 293.66,
+          "step": "D",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n033",
+        "t": 10.2,
+        "bar": 5,
+        "beat": 2,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n034",
+        "t": 10.35,
+        "bar": 5,
+        "beat": 2.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "G4",
+          "freq": 392,
+          "step": "G",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n035",
+        "t": 10.5,
+        "bar": 5,
+        "beat": 2.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "A5",
+          "freq": 880,
+          "step": "A",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n036",
+        "t": 10.65,
+        "bar": 5,
+        "beat": 2.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 5,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n037",
+        "t": 10.8,
+        "bar": 5,
+        "beat": 3,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 0,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n038",
+        "t": 10.95,
+        "bar": 5,
+        "beat": 3.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "D4",
+          "freq": 293.66,
+          "step": "D",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n039",
+        "t": 11.1,
+        "bar": 5,
+        "beat": 3.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n040",
+        "t": 11.25,
+        "bar": 5,
+        "beat": 3.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "G4",
+          "freq": 392,
+          "step": "G",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n041",
+        "t": 11.4,
+        "bar": 5,
+        "beat": 4,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "A5",
+          "freq": 880,
+          "step": "A",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n042",
+        "t": 11.55,
+        "bar": 5,
+        "beat": 4.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 5,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n043",
+        "t": 11.7,
+        "bar": 5,
+        "beat": 4.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 0,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n044",
+        "t": 11.85,
+        "bar": 5,
+        "beat": 4.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "D4",
+          "freq": 293.66,
+          "step": "D",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n045",
+        "t": 12,
+        "bar": 6,
+        "beat": 1,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n046",
+        "t": 12.15,
+        "bar": 6,
+        "beat": 1.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "G4",
+          "freq": 392,
+          "step": "G",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n047",
+        "t": 12.3,
+        "bar": 6,
+        "beat": 1.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "A5",
+          "freq": 880,
+          "step": "A",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n048",
+        "t": 12.45,
+        "bar": 6,
+        "beat": 1.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 5,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n049",
+        "t": 12.6,
+        "bar": 6,
+        "beat": 2,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 0,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n050",
+        "t": 12.75,
+        "bar": 6,
+        "beat": 2.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "D4",
+          "freq": 293.66,
+          "step": "D",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n051",
+        "t": 12.9,
+        "bar": 6,
+        "beat": 2.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n052",
+        "t": 13.05,
+        "bar": 6,
+        "beat": 2.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "G4",
+          "freq": 392,
+          "step": "G",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n053",
+        "t": 13.2,
+        "bar": 6,
+        "beat": 3,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "A5",
+          "freq": 880,
+          "step": "A",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n054",
+        "t": 13.35,
+        "bar": 6,
+        "beat": 3.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 5,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n055",
+        "t": 13.5,
+        "bar": 6,
+        "beat": 3.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 0,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n056",
+        "t": 13.65,
+        "bar": 6,
+        "beat": 3.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "D4",
+          "freq": 293.66,
+          "step": "D",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 1,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n057",
+        "t": 13.8,
+        "bar": 6,
+        "beat": 4,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n058",
+        "t": 13.95,
+        "bar": 6,
+        "beat": 4.25,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "G4",
+          "freq": 392,
+          "step": "G",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n059",
+        "t": 14.1,
+        "bar": 6,
+        "beat": 4.5,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "A5",
+          "freq": 880,
+          "step": "A",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n060",
+        "t": 14.25,
+        "bar": 6,
+        "beat": 4.75,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "C5",
+          "freq": 523.25,
+          "step": "C",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 5,
+        "accent": false,
+        "unison": false
+      },
+      {
+        "id": "n061",
+        "t": 16.8,
+        "bar": 8,
+        "beat": 1,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "E5",
+          "freq": 659.25,
+          "step": "E",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 2,
+        "accent": true,
+        "unison": false
+      },
+      {
+        "id": "n062",
+        "t": 17.4,
+        "bar": 8,
+        "beat": 2,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "G5",
+          "freq": 783.99,
+          "step": "G",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 3,
+        "accent": true,
+        "unison": false
+      },
+      {
+        "id": "n063",
+        "t": 18,
+        "bar": 8,
+        "beat": 3,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "A5",
+          "freq": 880,
+          "step": "A",
+          "octave": 5,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": true,
+        "unison": false
+      },
+      {
+        "id": "n064",
+        "t": 18.6,
+        "bar": 8,
+        "beat": 4,
+        "voice": 1,
+        "voices": [
+          1
+        ],
+        "pitch": {
+          "label": "C6",
+          "freq": 1046.5,
+          "step": "C",
+          "octave": 6,
+          "alter": 0
+        },
+        "pitchIdx": 5,
+        "accent": true,
+        "unison": false
+      },
+      {
+        "id": "n065",
+        "t": 19.2,
+        "bar": 9,
+        "beat": 1,
+        "voice": 0,
+        "voices": [
+          1,
+          2
+        ],
+        "pitch": {
+          "label": "C6",
+          "freq": 1046.5,
+          "step": "C",
+          "octave": 6,
+          "alter": 0
+        },
+        "pitchIdx": 5,
+        "accent": true,
+        "unison": true
+      },
+      {
+        "id": "n066",
+        "t": 21.6,
+        "bar": 10,
+        "beat": 1,
+        "voice": 2,
+        "voices": [
+          2
+        ],
+        "pitch": {
+          "label": "A4",
+          "freq": 440,
+          "step": "A",
+          "octave": 4,
+          "alter": 0
+        },
+        "pitchIdx": 4,
+        "accent": false,
+        "unison": false
+      }
+    ],
+    "unisonGroups": [
+      [
+        "n001"
+      ],
+      [
+        "n002"
+      ],
+      [
+        "n003"
+      ],
+      [
+        "n004"
+      ],
+      [
+        "n065"
+      ]
+    ],
+    "guideBeats": [
+      {
+        "id": "g001",
+        "t": 0,
+        "bar": 1,
+        "beat": 1,
+        "kind": "kick"
+      },
+      {
+        "id": "g002",
+        "t": 0.6,
+        "bar": 1,
+        "beat": 2,
+        "kind": "wood"
+      },
+      {
+        "id": "g003",
+        "t": 1.2,
+        "bar": 1,
+        "beat": 3,
+        "kind": "wood"
+      },
+      {
+        "id": "g004",
+        "t": 1.8,
+        "bar": 1,
+        "beat": 4,
+        "kind": "wood"
+      },
+      {
+        "id": "g005",
+        "t": 2.4,
+        "bar": 2,
+        "beat": 1,
+        "kind": "kick"
+      },
+      {
+        "id": "g006",
+        "t": 3,
+        "bar": 2,
+        "beat": 2,
+        "kind": "wood"
+      },
+      {
+        "id": "g007",
+        "t": 3.6,
+        "bar": 2,
+        "beat": 3,
+        "kind": "wood"
+      },
+      {
+        "id": "g008",
+        "t": 4.2,
+        "bar": 2,
+        "beat": 4,
+        "kind": "wood"
+      },
+      {
+        "id": "g009",
+        "t": 4.8,
+        "bar": 3,
+        "beat": 1,
+        "kind": "kick"
+      },
+      {
+        "id": "g010",
+        "t": 5.4,
+        "bar": 3,
+        "beat": 2,
+        "kind": "wood"
+      },
+      {
+        "id": "g011",
+        "t": 6,
+        "bar": 3,
+        "beat": 3,
+        "kind": "wood"
+      },
+      {
+        "id": "g012",
+        "t": 6.6,
+        "bar": 3,
+        "beat": 4,
+        "kind": "wood"
+      },
+      {
+        "id": "g013",
+        "t": 7.2,
+        "bar": 4,
+        "beat": 1,
+        "kind": "kick"
+      },
+      {
+        "id": "g014",
+        "t": 7.8,
+        "bar": 4,
+        "beat": 2,
+        "kind": "wood"
+      },
+      {
+        "id": "g015",
+        "t": 8.4,
+        "bar": 4,
+        "beat": 3,
+        "kind": "wood"
+      },
+      {
+        "id": "g016",
+        "t": 9,
+        "bar": 4,
+        "beat": 4,
+        "kind": "wood"
+      },
+      {
+        "id": "g017",
+        "t": 9.6,
+        "bar": 5,
+        "beat": 1,
+        "kind": "kick"
+      },
+      {
+        "id": "g018",
+        "t": 10.2,
+        "bar": 5,
+        "beat": 2,
+        "kind": "wood"
+      },
+      {
+        "id": "g019",
+        "t": 10.8,
+        "bar": 5,
+        "beat": 3,
+        "kind": "wood"
+      },
+      {
+        "id": "g020",
+        "t": 11.4,
+        "bar": 5,
+        "beat": 4,
+        "kind": "wood"
+      },
+      {
+        "id": "g021",
+        "t": 12,
+        "bar": 6,
+        "beat": 1,
+        "kind": "kick"
+      },
+      {
+        "id": "g022",
+        "t": 12.6,
+        "bar": 6,
+        "beat": 2,
+        "kind": "wood"
+      },
+      {
+        "id": "g023",
+        "t": 13.2,
+        "bar": 6,
+        "beat": 3,
+        "kind": "wood"
+      },
+      {
+        "id": "g024",
+        "t": 13.8,
+        "bar": 6,
+        "beat": 4,
+        "kind": "wood"
+      },
+      {
+        "id": "g025",
+        "t": 14.4,
+        "bar": 7,
+        "beat": 1,
+        "kind": "kick"
+      },
+      {
+        "id": "g026",
+        "t": 15,
+        "bar": 7,
+        "beat": 2,
+        "kind": "wood"
+      },
+      {
+        "id": "g027",
+        "t": 15.6,
+        "bar": 7,
+        "beat": 3,
+        "kind": "wood"
+      },
+      {
+        "id": "g028",
+        "t": 16.2,
+        "bar": 7,
+        "beat": 4,
+        "kind": "wood"
+      },
+      {
+        "id": "g029",
+        "t": 16.8,
+        "bar": 8,
+        "beat": 1,
+        "kind": "kick"
+      },
+      {
+        "id": "g030",
+        "t": 17.4,
+        "bar": 8,
+        "beat": 2,
+        "kind": "wood"
+      },
+      {
+        "id": "g031",
+        "t": 18,
+        "bar": 8,
+        "beat": 3,
+        "kind": "wood"
+      },
+      {
+        "id": "g032",
+        "t": 18.6,
+        "bar": 8,
+        "beat": 4,
+        "kind": "wood"
+      },
+      {
+        "id": "g033",
+        "t": 19.2,
+        "bar": 9,
+        "beat": 1,
+        "kind": "kick"
+      },
+      {
+        "id": "g034",
+        "t": 19.8,
+        "bar": 9,
+        "beat": 2,
+        "kind": "wood"
+      },
+      {
+        "id": "g035",
+        "t": 20.4,
+        "bar": 9,
+        "beat": 3,
+        "kind": "wood"
+      },
+      {
+        "id": "g036",
+        "t": 21,
+        "bar": 9,
+        "beat": 4,
+        "kind": "wood"
+      },
+      {
+        "id": "g037",
+        "t": 21.6,
+        "bar": 10,
+        "beat": 1,
+        "kind": "kick"
+      },
+      {
+        "id": "g038",
+        "t": 22.2,
+        "bar": 10,
+        "beat": 2,
+        "kind": "wood"
+      },
+      {
+        "id": "g039",
+        "t": 22.8,
+        "bar": 10,
+        "beat": 3,
+        "kind": "wood"
+      },
+      {
+        "id": "g040",
+        "t": 23.4,
+        "bar": 10,
+        "beat": 4,
+        "kind": "wood"
+      }
+    ]
+  },
+  "devices": {
+    "dev1": {
+      "id": "dev1",
+      "label": "一号设备 · 稳定延迟",
+      "offset": 0.04,
+      "rate": 0,
+      "sampleRate": 48000,
+      "origin": 100
+    },
+    "dev2": {
+      "id": "dev2",
+      "label": "二号设备 · 缓慢时钟漂移",
+      "offset": 0.02,
+      "rate": 0.0085,
+      "sampleRate": 48000,
+      "origin": 200
+    }
+  },
+  "defaultMarkers": {
+    "dev1": [
+      {
+        "mediaTime": 0,
+        "deviceTime": 100.04
+      },
+      {
+        "mediaTime": 24,
+        "deviceTime": 124.04
+      }
+    ],
+    "dev2": [
+      {
+        "mediaTime": 0,
+        "deviceTime": 200.02
+      },
+      {
+        "mediaTime": 24,
+        "deviceTime": 224.22400000000002
+      }
+    ]
+  },
+  "hits": [
+    {
+      "hitId": "h001",
+      "noteId": "n001",
+      "deviceId": "dev1",
+      "deviceTime": 100.04,
+      "mediaSample": 4801920,
+      "sampleRate": 48000,
+      "trueMediaTime": 0,
+      "performanceJitter": 0
+    },
+    {
+      "hitId": "h002",
+      "noteId": "n001",
+      "deviceId": "dev2",
+      "deviceTime": 200.02,
+      "mediaSample": 9600960,
+      "sampleRate": 48000,
+      "trueMediaTime": 0,
+      "performanceJitter": 0
+    },
+    {
+      "hitId": "h003",
+      "noteId": "n002",
+      "deviceId": "dev1",
+      "deviceTime": 100.64,
+      "mediaSample": 4830720,
+      "sampleRate": 48000,
+      "trueMediaTime": 0.6,
+      "performanceJitter": 0
+    },
+    {
+      "hitId": "h004",
+      "noteId": "n002",
+      "deviceId": "dev2",
+      "deviceTime": 200.6251,
+      "mediaSample": 9630005,
+      "sampleRate": 48000,
+      "trueMediaTime": 0.6,
+      "performanceJitter": 0
+    },
+    {
+      "hitId": "h005",
+      "noteId": "n003",
+      "deviceId": "dev1",
+      "deviceTime": 101.235252,
+      "mediaSample": 4859292,
+      "sampleRate": 48000,
+      "trueMediaTime": 1.195252,
+      "performanceJitter": -0.004748
+    },
+    {
+      "hitId": "h006",
+      "noteId": "n003",
+      "deviceId": "dev2",
+      "deviceTime": 201.225764,
+      "mediaSample": 9658837,
+      "sampleRate": 48000,
+      "trueMediaTime": 1.195601,
+      "performanceJitter": -0.004399
+    },
+    {
+      "hitId": "h007",
+      "noteId": "n004",
+      "deviceId": "dev1",
+      "deviceTime": 101.824102,
+      "mediaSample": 4887557,
+      "sampleRate": 48000,
+      "trueMediaTime": 1.784102,
+      "performanceJitter": -0.015898
+    },
+    {
+      "hitId": "h008",
+      "noteId": "n004",
+      "deviceId": "dev2",
+      "deviceTime": 201.832599,
+      "mediaSample": 9687965,
+      "sampleRate": 48000,
+      "trueMediaTime": 1.797322,
+      "performanceJitter": -0.002678
+    },
+    {
+      "hitId": "h009",
+      "noteId": "n005",
+      "deviceId": "dev1",
+      "deviceTime": 102.445806,
+      "mediaSample": 4917399,
+      "sampleRate": 48000,
+      "trueMediaTime": 2.405806,
+      "performanceJitter": 0.005806
+    },
+    {
+      "hitId": "h010",
+      "noteId": "n006",
+      "deviceId": "dev2",
+      "deviceTime": 203.051843,
+      "mediaSample": 9746488,
+      "sampleRate": 48000,
+      "trueMediaTime": 3.00629,
+      "performanceJitter": 0.00629
+    },
+    {
+      "hitId": "h011",
+      "noteId": "n007",
+      "deviceId": "dev1",
+      "deviceTime": 103.62,
+      "mediaSample": 4973760,
+      "sampleRate": 48000,
+      "trueMediaTime": 3.58,
+      "performanceJitter": -0.02
+    },
+    {
+      "hitId": "h012",
+      "noteId": "n008",
+      "deviceId": "dev2",
+      "deviceTime": 204.255539,
+      "mediaSample": 9804266,
+      "sampleRate": 48000,
+      "trueMediaTime": 4.19984,
+      "performanceJitter": -0.00016
+    },
+    {
+      "hitId": "h013",
+      "noteId": "n009",
+      "deviceId": "dev2",
+      "deviceTime": 204.854758,
+      "mediaSample": 9833028,
+      "sampleRate": 48000,
+      "trueMediaTime": 4.794009,
+      "performanceJitter": -0.005991
+    },
+    {
+      "hitId": "h014",
+      "noteId": "n010",
+      "deviceId": "dev1",
+      "deviceTime": 105.44823,
+      "mediaSample": 5061515,
+      "sampleRate": 48000,
+      "trueMediaTime": 5.40823,
+      "performanceJitter": 0.00823
+    },
+    {
+      "hitId": "h015",
+      "noteId": "n011",
+      "deviceId": "dev2",
+      "deviceTime": 206.0768,
+      "mediaSample": 9891686,
+      "sampleRate": 48000,
+      "trueMediaTime": 6.005751,
+      "performanceJitter": 0.005751
+    },
+    {
+      "hitId": "h016",
+      "noteId": "n012",
+      "deviceId": "dev1",
+      "deviceTime": 106.62,
+      "mediaSample": 5117760,
+      "sampleRate": 48000,
+      "trueMediaTime": 6.58,
+      "performanceJitter": -0.02
+    },
+    {
+      "hitId": "h017",
+      "noteId": "n013",
+      "deviceId": "dev1",
+      "deviceTime": 107.237068,
+      "mediaSample": 5147379,
+      "sampleRate": 48000,
+      "trueMediaTime": 7.197068,
+      "performanceJitter": -0.002932
+    },
+    {
+      "hitId": "h018",
+      "noteId": "n014",
+      "deviceId": "dev2",
+      "deviceTime": 207.426424,
+      "mediaSample": 9956468,
+      "sampleRate": 48000,
+      "trueMediaTime": 7.344,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h019",
+      "noteId": "n015",
+      "deviceId": "dev1",
+      "deviceTime": 107.540603,
+      "mediaSample": 5161949,
+      "sampleRate": 48000,
+      "trueMediaTime": 7.500603,
+      "performanceJitter": 0.000603
+    },
+    {
+      "hitId": "h020",
+      "noteId": "n016",
+      "deviceId": "dev2",
+      "deviceTime": 207.734538,
+      "mediaSample": 9971258,
+      "sampleRate": 48000,
+      "trueMediaTime": 7.649517,
+      "performanceJitter": -0.000483
+    },
+    {
+      "hitId": "h021",
+      "noteId": "n017",
+      "deviceId": "dev1",
+      "deviceTime": 107.846,
+      "mediaSample": 5176608,
+      "sampleRate": 48000,
+      "trueMediaTime": 7.806,
+      "performanceJitter": 0.006
+    },
+    {
+      "hitId": "h022",
+      "noteId": "n018",
+      "deviceId": "dev2",
+      "deviceTime": 208.031524,
+      "mediaSample": 9985513,
+      "sampleRate": 48000,
+      "trueMediaTime": 7.944,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h023",
+      "noteId": "n019",
+      "deviceId": "dev1",
+      "deviceTime": 108.134,
+      "mediaSample": 5190432,
+      "sampleRate": 48000,
+      "trueMediaTime": 8.094,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h024",
+      "noteId": "n020",
+      "deviceId": "dev2",
+      "deviceTime": 208.335408,
+      "mediaSample": 10000100,
+      "sampleRate": 48000,
+      "trueMediaTime": 8.245323,
+      "performanceJitter": -0.004677
+    },
+    {
+      "hitId": "h025",
+      "noteId": "n021",
+      "deviceId": "dev1",
+      "deviceTime": 108.446,
+      "mediaSample": 5205408,
+      "sampleRate": 48000,
+      "trueMediaTime": 8.406,
+      "performanceJitter": 0.006
+    },
+    {
+      "hitId": "h026",
+      "noteId": "n022",
+      "deviceId": "dev2",
+      "deviceTime": 208.641085,
+      "mediaSample": 10014772,
+      "sampleRate": 48000,
+      "trueMediaTime": 8.548423,
+      "performanceJitter": -0.001577
+    },
+    {
+      "hitId": "h027",
+      "noteId": "n023",
+      "deviceId": "dev1",
+      "deviceTime": 108.738399,
+      "mediaSample": 5219443,
+      "sampleRate": 48000,
+      "trueMediaTime": 8.698399,
+      "performanceJitter": -0.001601
+    },
+    {
+      "hitId": "h028",
+      "noteId": "n024",
+      "deviceId": "dev2",
+      "deviceTime": 208.951276,
+      "mediaSample": 10029661,
+      "sampleRate": 48000,
+      "trueMediaTime": 8.856,
+      "performanceJitter": 0.006
+    },
+    {
+      "hitId": "h029",
+      "noteId": "n025",
+      "deviceId": "dev1",
+      "deviceTime": 109.034938,
+      "mediaSample": 5233677,
+      "sampleRate": 48000,
+      "trueMediaTime": 8.994938,
+      "performanceJitter": -0.005062
+    },
+    {
+      "hitId": "h030",
+      "noteId": "n026",
+      "deviceId": "dev2",
+      "deviceTime": 209.241724,
+      "mediaSample": 10043603,
+      "sampleRate": 48000,
+      "trueMediaTime": 9.144,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h031",
+      "noteId": "n027",
+      "deviceId": "dev1",
+      "deviceTime": 109.342323,
+      "mediaSample": 5248432,
+      "sampleRate": 48000,
+      "trueMediaTime": 9.302323,
+      "performanceJitter": 0.002323
+    },
+    {
+      "hitId": "h032",
+      "noteId": "n028",
+      "deviceId": "dev2",
+      "deviceTime": 209.556376,
+      "mediaSample": 10058706,
+      "sampleRate": 48000,
+      "trueMediaTime": 9.456,
+      "performanceJitter": 0.006
+    },
+    {
+      "hitId": "h033",
+      "noteId": "n029",
+      "deviceId": "dev1",
+      "deviceTime": 109.638843,
+      "mediaSample": 5262664,
+      "sampleRate": 48000,
+      "trueMediaTime": 9.598843,
+      "performanceJitter": -0.001157
+    },
+    {
+      "hitId": "h034",
+      "noteId": "n030",
+      "deviceId": "dev2",
+      "deviceTime": 209.858926,
+      "mediaSample": 10073228,
+      "sampleRate": 48000,
+      "trueMediaTime": 9.756,
+      "performanceJitter": 0.006
+    },
+    {
+      "hitId": "h035",
+      "noteId": "n031",
+      "deviceId": "dev1",
+      "deviceTime": 109.943105,
+      "mediaSample": 5277269,
+      "sampleRate": 48000,
+      "trueMediaTime": 9.903105,
+      "performanceJitter": 0.003105
+    },
+    {
+      "hitId": "h036",
+      "noteId": "n032",
+      "deviceId": "dev2",
+      "deviceTime": 210.150699,
+      "mediaSample": 10087234,
+      "sampleRate": 48000,
+      "trueMediaTime": 10.045314,
+      "performanceJitter": -0.004686
+    },
+    {
+      "hitId": "h037",
+      "noteId": "n033",
+      "deviceId": "dev1",
+      "deviceTime": 110.234,
+      "mediaSample": 5291232,
+      "sampleRate": 48000,
+      "trueMediaTime": 10.194,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h038",
+      "noteId": "n034",
+      "deviceId": "dev2",
+      "deviceTime": 210.464026,
+      "mediaSample": 10102273,
+      "sampleRate": 48000,
+      "trueMediaTime": 10.356,
+      "performanceJitter": 0.006
+    },
+    {
+      "hitId": "h039",
+      "noteId": "n035",
+      "deviceId": "dev1",
+      "deviceTime": 110.534,
+      "mediaSample": 5305632,
+      "sampleRate": 48000,
+      "trueMediaTime": 10.494,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h040",
+      "noteId": "n036",
+      "deviceId": "dev2",
+      "deviceTime": 210.758388,
+      "mediaSample": 10116403,
+      "sampleRate": 48000,
+      "trueMediaTime": 10.647881,
+      "performanceJitter": -0.002119
+    },
+    {
+      "hitId": "h041",
+      "noteId": "n037",
+      "deviceId": "dev1",
+      "deviceTime": 110.843025,
+      "mediaSample": 5320465,
+      "sampleRate": 48000,
+      "trueMediaTime": 10.803025,
+      "performanceJitter": 0.003025
+    },
+    {
+      "hitId": "h042",
+      "noteId": "n038",
+      "deviceId": "dev2",
+      "deviceTime": 211.059782,
+      "mediaSample": 10130870,
+      "sampleRate": 48000,
+      "trueMediaTime": 10.946735,
+      "performanceJitter": -0.003265
+    },
+    {
+      "hitId": "h043",
+      "noteId": "n039",
+      "deviceId": "dev1",
+      "deviceTime": 111.134995,
+      "mediaSample": 5334480,
+      "sampleRate": 48000,
+      "trueMediaTime": 11.094995,
+      "performanceJitter": -0.005005
+    },
+    {
+      "hitId": "h044",
+      "noteId": "n040",
+      "deviceId": "dev2",
+      "deviceTime": 211.359574,
+      "mediaSample": 10145260,
+      "sampleRate": 48000,
+      "trueMediaTime": 11.244,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h045",
+      "noteId": "n041",
+      "deviceId": "dev1",
+      "deviceTime": 111.437616,
+      "mediaSample": 5349006,
+      "sampleRate": 48000,
+      "trueMediaTime": 11.397616,
+      "performanceJitter": -0.002384
+    },
+    {
+      "hitId": "h046",
+      "noteId": "n042",
+      "deviceId": "dev2",
+      "deviceTime": 211.671531,
+      "mediaSample": 10160234,
+      "sampleRate": 48000,
+      "trueMediaTime": 11.553328,
+      "performanceJitter": 0.003328
+    },
+    {
+      "hitId": "h047",
+      "noteId": "n043",
+      "deviceId": "dev1",
+      "deviceTime": 111.746,
+      "mediaSample": 5363808,
+      "sampleRate": 48000,
+      "trueMediaTime": 11.706,
+      "performanceJitter": 0.006
+    },
+    {
+      "hitId": "h048",
+      "noteId": "n044",
+      "deviceId": "dev2",
+      "deviceTime": 211.976002,
+      "mediaSample": 10174848,
+      "sampleRate": 48000,
+      "trueMediaTime": 11.855233,
+      "performanceJitter": 0.005233
+    },
+    {
+      "hitId": "h049",
+      "noteId": "n045",
+      "deviceId": "dev1",
+      "deviceTime": 112.038329,
+      "mediaSample": 5377840,
+      "sampleRate": 48000,
+      "trueMediaTime": 11.998329,
+      "performanceJitter": -0.001671
+    },
+    {
+      "hitId": "h050",
+      "noteId": "n046",
+      "deviceId": "dev2",
+      "deviceTime": 212.268903,
+      "mediaSample": 10188907,
+      "sampleRate": 48000,
+      "trueMediaTime": 12.145665,
+      "performanceJitter": -0.004335
+    },
+    {
+      "hitId": "h051",
+      "noteId": "n047",
+      "deviceId": "dev1",
+      "deviceTime": 112.342632,
+      "mediaSample": 5392446,
+      "sampleRate": 48000,
+      "trueMediaTime": 12.302632,
+      "performanceJitter": 0.002632
+    },
+    {
+      "hitId": "h052",
+      "noteId": "n048",
+      "deviceId": "dev2",
+      "deviceTime": 212.569774,
+      "mediaSample": 10203349,
+      "sampleRate": 48000,
+      "trueMediaTime": 12.444,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h053",
+      "noteId": "n049",
+      "deviceId": "dev1",
+      "deviceTime": 112.634,
+      "mediaSample": 5406432,
+      "sampleRate": 48000,
+      "trueMediaTime": 12.594,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h054",
+      "noteId": "n050",
+      "deviceId": "dev2",
+      "deviceTime": 212.875242,
+      "mediaSample": 10218012,
+      "sampleRate": 48000,
+      "trueMediaTime": 12.746893,
+      "performanceJitter": -0.003107
+    },
+    {
+      "hitId": "h055",
+      "noteId": "n051",
+      "deviceId": "dev1",
+      "deviceTime": 112.934,
+      "mediaSample": 5420832,
+      "sampleRate": 48000,
+      "trueMediaTime": 12.894,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h056",
+      "noteId": "n052",
+      "deviceId": "dev2",
+      "deviceTime": 213.174874,
+      "mediaSample": 10232394,
+      "sampleRate": 48000,
+      "trueMediaTime": 13.044,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h057",
+      "noteId": "n053",
+      "deviceId": "dev1",
+      "deviceTime": 113.238682,
+      "mediaSample": 5435457,
+      "sampleRate": 48000,
+      "trueMediaTime": 13.198682,
+      "performanceJitter": -0.001318
+    },
+    {
+      "hitId": "h058",
+      "noteId": "n054",
+      "deviceId": "dev2",
+      "deviceTime": 213.489526,
+      "mediaSample": 10247497,
+      "sampleRate": 48000,
+      "trueMediaTime": 13.356,
+      "performanceJitter": 0.006
+    },
+    {
+      "hitId": "h059",
+      "noteId": "n055",
+      "deviceId": "dev1",
+      "deviceTime": 113.546,
+      "mediaSample": 5450208,
+      "sampleRate": 48000,
+      "trueMediaTime": 13.506,
+      "performanceJitter": 0.006
+    },
+    {
+      "hitId": "h060",
+      "noteId": "n056",
+      "deviceId": "dev2",
+      "deviceTime": 213.779974,
+      "mediaSample": 10261439,
+      "sampleRate": 48000,
+      "trueMediaTime": 13.644,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h061",
+      "noteId": "n057",
+      "deviceId": "dev1",
+      "deviceTime": 113.834765,
+      "mediaSample": 5464069,
+      "sampleRate": 48000,
+      "trueMediaTime": 13.794765,
+      "performanceJitter": -0.005235
+    },
+    {
+      "hitId": "h062",
+      "noteId": "n058",
+      "deviceId": "dev2",
+      "deviceTime": 214.091883,
+      "mediaSample": 10276410,
+      "sampleRate": 48000,
+      "trueMediaTime": 13.95328,
+      "performanceJitter": 0.00328
+    },
+    {
+      "hitId": "h063",
+      "noteId": "n059",
+      "deviceId": "dev1",
+      "deviceTime": 114.143574,
+      "mediaSample": 5478892,
+      "sampleRate": 48000,
+      "trueMediaTime": 14.103574,
+      "performanceJitter": 0.003574
+    },
+    {
+      "hitId": "h064",
+      "noteId": "n060",
+      "deviceId": "dev2",
+      "deviceTime": 214.397176,
+      "mediaSample": 10291064,
+      "sampleRate": 48000,
+      "trueMediaTime": 14.256,
+      "performanceJitter": 0.006
+    },
+    {
+      "hitId": "h065",
+      "noteId": "n061",
+      "deviceId": "dev1",
+      "deviceTime": 116.840899,
+      "mediaSample": 5608363,
+      "sampleRate": 48000,
+      "trueMediaTime": 16.800899,
+      "performanceJitter": 0.000899
+    },
+    {
+      "hitId": "h066",
+      "noteId": "n062",
+      "deviceId": "dev1",
+      "deviceTime": 117.444857,
+      "mediaSample": 5637353,
+      "sampleRate": 48000,
+      "trueMediaTime": 17.404857,
+      "performanceJitter": 0.004857
+    },
+    {
+      "hitId": "h067",
+      "noteId": "n063",
+      "deviceId": "dev1",
+      "deviceTime": 118.033088,
+      "mediaSample": 5665588,
+      "sampleRate": 48000,
+      "trueMediaTime": 17.993088,
+      "performanceJitter": -0.006912
+    },
+    {
+      "hitId": "h068",
+      "noteId": "n064",
+      "deviceId": "dev1",
+      "deviceTime": 118.634782,
+      "mediaSample": 5694470,
+      "sampleRate": 48000,
+      "trueMediaTime": 18.594782,
+      "performanceJitter": -0.005218
+    },
+    {
+      "hitId": "h069",
+      "noteId": "n065",
+      "deviceId": "dev1",
+      "deviceTime": 119.285,
+      "mediaSample": 5725680,
+      "sampleRate": 48000,
+      "trueMediaTime": 19.245,
+      "performanceJitter": 0.045
+    },
+    {
+      "hitId": "h070",
+      "noteId": "n065",
+      "deviceId": "dev2",
+      "deviceTime": 219.377149,
+      "mediaSample": 10530103,
+      "sampleRate": 48000,
+      "trueMediaTime": 19.194,
+      "performanceJitter": -0.006
+    },
+    {
+      "hitId": "h071",
+      "noteId": "n066",
+      "deviceId": "dev2",
+      "deviceTime": 221.799205,
+      "mediaSample": 10646362,
+      "sampleRate": 48000,
+      "trueMediaTime": 21.595642,
+      "performanceJitter": -0.004358
+    }
+  ]
+}
